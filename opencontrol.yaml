@@ -8,4 +8,4 @@ metadata:
   maintainers:
     - gregelin@govready.com
 components:
-  - ./opencontrol/components/Automatic-Logout
+  - ./opencontrol/components/Automated-Logout
