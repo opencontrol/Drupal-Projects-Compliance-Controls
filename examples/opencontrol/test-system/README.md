@@ -8,6 +8,15 @@ Run the following commands from the root of the `examples/opencontrol/test-syste
 
 1. Remove any existing `exports/` and `opencontrols/` directories in your workspace
 
+
+rm -rf exports/ opencontrols/
+compliance-masonry get
+compliance-masonry docs gitbook FedRAMP-low
+tree
+
+npm install -g gitbook-cli
+
+
 ```sh
 rm -rf exports/ opencontrols/
 ```
