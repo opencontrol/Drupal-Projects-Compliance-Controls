@@ -1,0 +1,11 @@
+schema_version: "1.0.0"
+name: Drupal Compliance Plugins
+metadata:
+  description: |
+    Drupal Compliance Plugins are various Drupal plugins commonly used to harden
+    a Drupal instance to meet various NIST SP 800-53 described security controls.
+
+  maintainers:
+    - gregelin@govready.com
+components:
+  - ./opencontrol/components/Automatic-Logout
