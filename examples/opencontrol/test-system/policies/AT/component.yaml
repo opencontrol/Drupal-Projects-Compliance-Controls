@@ -1,5 +1,5 @@
 documentation_complete: false
-schema_version: 3.1.0
+schema_version: 3.0.0
 name: Security Awareness Training Policy for [Agency_Here]
 satisfies:
   - control_key: AT-3
@@ -9,7 +9,7 @@ satisfies:
       - text: |
           [Agency's control implementation here]
     standard_key: NIST-800-53
-    
+
   - control_key: AT-1
     covered_by: []
     implementation_status: none
