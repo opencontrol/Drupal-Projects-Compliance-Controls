@@ -1,0 +1,17 @@
+documentation_complete: false
+schema_version: 3.0.0
+name: Flood Control
+references:
+  - name: Flood Control Plugin Documentation
+    path: https://www.drupal.org/project/flood_control
+    type: URL
+satisfies:
+  - control_key: SC-5
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          This plugin provides Drupal adminstrators with an interface to configure control variables within Drupal 7, such as the limiter for login attempts.
