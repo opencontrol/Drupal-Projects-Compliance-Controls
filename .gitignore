@@ -1,4 +1,6 @@
 # Generated gitbook directories
-**/exports/**
-**/opencontrols/**
+exports/
+opencontrols/
+
+component.yaml
 
