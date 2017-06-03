@@ -1,3 +1,4 @@
-# Export directories
-examples/opencontrol/test-system/exports/*
+# Generated gitbook directories
+**/exports/**
+**/opencontrols/**
 
