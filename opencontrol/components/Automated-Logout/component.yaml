@@ -6,11 +6,10 @@ references:
     path: https://www.drupal.org/project/autologout
     type: URL
 satisfies:
-  - control_key: AC-2
+  - control_key: AC-12
     standard_key: NIST-800-53
     covered_by: []
-    implementation_statuses:
-      - complete
+    implementation_status: complete
     control_origins:
       - service provider system specific
     narrative:
