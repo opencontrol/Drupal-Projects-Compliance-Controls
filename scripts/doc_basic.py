@@ -17,6 +17,9 @@ __license__ = "Apache Software License 2.0"
 import os
 import yaml
 import compliancelib
+import jinja2
+
+
 
 # Settings
 opencontrol_repo = 'https://github.com/opencontrol/Drupal-Plugins-Compliance-Controls'
@@ -25,34 +28,56 @@ output_file      = '../docs/BASIC.md'
 controllist      = ["AC-2","AC-6","AC-6 (1)", "AC-12", "SC-5", "SI-7"]
 # controllist    = ["AC-2","AC-6","AC-6 (1)", "AC-12", "AU-2", "AU-3", "AU-7", "AU-8", "AU-9", "AU-14", "SC-5", "SI-7"]
 
+# Load jina environment to get templates
+templateLoader = jinja2.FileSystemLoader( searchpath="./" )
+templateEnv    = jinja2.Environment( loader=templateLoader )
+TEMPLATE_FILE  = "templates/BASIC.md"
+template       = templateEnv.get_template( TEMPLATE_FILE )
+
 # Create system compliance instance
 sp = compliancelib.SystemCompliance()
 # Load OpenControl repo
 sp.load_system_from_opencontrol_repo(opencontrol_repo)
 
 # Figure out all the controls that are supported by the repo
-
-# Loop through supported controls and output basic description document
-# for c in controllist:
-#   #  print("\n")
-#   print("##", sp.control(c).id, sp.control(c).title, "\n")
-#   for component in sp.control(c).components_dict.keys():
-#     # print(component)
-#     print(sp.control(c).components_dict[component][0]['narrative'][0]['text'])
+# TODO
 
 # Loop through supported controls and capture basic description document
-content = ""
+# content = ""
+# for c in controllist:
+#     if c is None:
+#         continue
+#     content += "## {} {} \n\n".format(sp.control(c).id, sp.control(c).title)
+#     for component in sp.control(c).components_dict.keys():
+#         content += "{}".format(sp.control(c).components_dict[component][0]['narrative'][0]['text'].replace("\n"," "))
+#         content += "\n\n"
+
+# print("\n\n PRINTING OUTPUT \n")
+# print(content)
+
+# with open(output_file, "w") as f:
+#     f.write(content)
+# print("File written: ", output_file)
+
+# Now, with a template!
+
+controls = {}
 for c in controllist:
-    if c is None:
-        continue
-    content += "## {} {} \n\n".format(sp.control(c).id, sp.control(c).title)
+    texts = []
     for component in sp.control(c).components_dict.keys():
-        content += "{}".format(sp.control(c).components_dict[component][0]['narrative'][0]['text'].replace("\n"," "))
-        content += "\n\n"
+        texts.append("{}".format(sp.control(c).components_dict[component][0]['narrative'][0]['text'].replace("\n"," ")))
 
-print("\n\n PRINTING OUTPUT \n")
-print(content)
+    controls[c] = { 
+        "id": sp.control(c).id, 
+        "title": sp.control(c).title, 
+        "texts": texts,
+    }
 
+# print("\n\n PRINTING OUTPUT \n")
+#print(controls)
+
+output_text = template.render( {"controls": controls} )
 with open(output_file, "w") as f:
-    f.write(content)
+    f.write(output_text)
 print("File written: ", output_file)
+
