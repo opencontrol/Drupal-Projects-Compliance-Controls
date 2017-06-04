@@ -2,7 +2,7 @@
 
 This repository contains compliance information for various Drupal plugins commonly used to harden a Drupal instance to meet various NIST SP 800-53 described security controls.
 
-This data adheres to the OpenControl schema for building compliance documentation and can be used to support your own authority to operate (ATO) review process. The documentation generated from this content can be used to assist your organization in authorizing Drupal.
+This data adheres to the OpenControl schema for building compliance documentation and can be used to support your own authority to operate (ATO) review process. The documentation generated from this content can be used to assist your organization in authorizing Drupal. For more information, visit [http://open-control.org](http://open-control.org).
 
 > This content is provided for informational purposes only and has not been vetted by any third-party security assessors. You are solely responsible for developing, implementing, and managing your applications and/or subscriptions running on your own platform in compliance with applicable laws, regulations, and contractual obligations. The documentation is provided "as-is" and without any warranty of any kind, whether express, implied or statutory, and Docker, Inc. expressly disclaims all warranties for non-infringement, merchantability or fitness for a particular purpose.
 
@@ -19,8 +19,28 @@ This data adheres to the OpenControl schema for building compliance documentatio
 |Ejector Seat             | AC-12 Session Termination?              |
 |GovReady                 | ?CDM, patching                          |
 
-## Usage
+## How to use
 
-In order to generate the documentation appropriate to your system, you can either download and install the [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool on to your local workstation.
+### Docs with generated and paste text
+
+The `docs/` directory contains generated documents from which you can copy text.
+
+
+* [BASIC.md](docs/BASIC.md) - A basic listing of controls supported by Drupal plugins tracked in this repository
+
+### Scripts to generate documents
+
+The `scripts/` directory contains ready-to-run python scripts to generate various documents from Jinja2 templates in the `scripts/templates/` directory.
+
+### Using in OpenControl files
+
+You can include this repository as a dependency by adding the appropriate lines from the below snippet to your `opencontrol.yaml` file:
+
+```
+dependencies:
+  systems:
+    - url: https://github.com/opencontrol/Drupal-Plugins-Compliance-Controls
+      revision: master
+```
 
 
