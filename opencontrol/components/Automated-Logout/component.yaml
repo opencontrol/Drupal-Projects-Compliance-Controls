@@ -14,4 +14,4 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          'This module provides a site administrator the ability to log users out after a specified time of inactivity.'
+          The Automated Logout plutin provides Drupal site administrators the ability to log users out after a specified time of inactivity.
