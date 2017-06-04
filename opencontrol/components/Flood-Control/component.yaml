@@ -14,5 +14,5 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Flood Control plugin provides Drupal administrators with an interface
+          The Drupal plugin, Flood Control, provides Drupal administrators with an interface
           to configure flood controls variable sin Drupal 7, such as the limiter for login attempts.

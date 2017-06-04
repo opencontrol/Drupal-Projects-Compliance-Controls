@@ -14,5 +14,5 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Session Limit plugin enables Drupal administrators to set limits on the number
+          The Drupal plugin, Session Limit, enables Drupal administrators to set limits on the number
           of simultaneous sessions for each user.
