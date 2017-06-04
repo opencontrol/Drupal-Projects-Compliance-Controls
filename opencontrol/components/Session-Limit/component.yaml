@@ -1,0 +1,18 @@
+documentation_complete: false
+schema_version: 3.0.0
+name: Session Limit Plugin
+references:
+  - name: Session Limit Plugin Documentation
+    path: https://www.drupal.org/project/autologout
+    type: URL
+satisfies:
+  - control_key: AC-12
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          The Session Limit plugin enables Drupal administrators to set limits on the number
+          of simultaneous sessions for each user.

@@ -10,3 +10,8 @@ metadata:
 components:
   - ./opencontrol/components/Automated-Logout
   - ./opencontrol/components/Flood-Control
+  - ./opencontrol/components/Paranoia
+  - ./opencontrol/components/Session-Limit
+  - ./opencontrol/components/TFA
+#  - ./opencontrol/components/Watchdog
+#  - ./opencontrol/components/GovReady

@@ -1,0 +1,19 @@
+documentation_complete: false
+schema_version: 3.0.0
+name: Ejector Seat
+references:
+  - name: Ejector Seat Plugin Documentation
+    path: https://www.drupal.org/project/ejectorseat
+    type: URL
+satisfies:
+  - control_key: AC-12
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          Ejector seat provides some client side code that periodically checks to see
+          if users are still logged in. If it is determined the user is not logged in, the
+          client side code reloads the current page so the user sees as would an anonymous user.

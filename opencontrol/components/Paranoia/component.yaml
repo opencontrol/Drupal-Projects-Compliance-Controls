@@ -1,0 +1,19 @@
+documentation_complete: false
+schema_version: 3.0.0
+name: Paranoia Plugin
+references:
+  - name: Paranoia Plugin Documentation
+    path: https://www.drupal.org/project/paranoia
+    type: URL
+satisfies:
+  - control_key: AC-6 (1)
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          The Paranoia plugin supports least privilege by blocking any location within the Drupal
+          interface the plugin finds where a user can evaluate (e.g., run) PHP code. This limits
+          the ability of an individual gaining elevated permission.
