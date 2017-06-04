@@ -21,8 +21,9 @@ import compliancelib
 # Settings
 opencontrol_repo = 'https://github.com/opencontrol/Drupal-Plugins-Compliance-Controls'
 opencontrol_file = '../opencontrol.yaml'
-controllist = ["AC-2","AC-6","AC-6 (1)", "AC-12", "SC-5", "SI-7"]
-# controllist = ["AC-2","AC-6","AC-6 (1)", "AC-12", "AU-2", "AU-3", "AU-7", "AU-8", "AU-9", "AU-14", "SC-5", "SI-7"]
+output_file      = '../docs/BASIC.md'
+controllist      = ["AC-2","AC-6","AC-6 (1)", "AC-12", "SC-5", "SI-7"]
+# controllist    = ["AC-2","AC-6","AC-6 (1)", "AC-12", "AU-2", "AU-3", "AU-7", "AU-8", "AU-9", "AU-14", "SC-5", "SI-7"]
 
 # Create system compliance instance
 sp = compliancelib.SystemCompliance()
@@ -51,3 +52,7 @@ for c in controllist:
 
 print("\n\n PRINTING OUTPUT \n")
 print(content)
+
+with open(output_file, "w") as f:
+    f.write(content)
+print("File written: ", output_file)
