@@ -14,5 +14,5 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Drupal plugin, GovReady Dashboard, provides a dashboard and tools to enhance security for government
+          The Drupal plugin "GovReady Dashboard" provides a dashboard and tools to enhance security for government
           websites and achieve FISMA compliance.

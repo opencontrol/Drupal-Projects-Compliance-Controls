@@ -14,6 +14,6 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Drupal plugin, Paranoia, supports least privilege by blocking any location within the Drupal
+          The Drupal plugin "Paranoia" supports least privilege by blocking any location within the Drupal
           interface the plugin finds where a user can evaluate (e.g., run) PHP code. This limits
           the ability of an individual gaining elevated permission.

@@ -14,7 +14,7 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Drupal plugin, Two-factor Authentication (TFA), improves account management by upgrading
+          The Drupal plugin, "Two-factor Authentication (TFA)" improves account management by upgrading
           Drupal's standard username and password login to two-factor authentication via a various two-factor
           authentication.
 
@@ -26,7 +26,7 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Drupal plugin, Two-factor Authentication (TFA), supports least privilege by upgrading
+          The Drupal plugin, "Two-factor Authentication (TFA)" supports least privilege by upgrading
           Drupal's standard username and password login to two-factor authentication via a various two-factor
           authentication.
 
@@ -38,6 +38,6 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Drupal plugin, Two-factor Authentication (TFA), supports the integrity of software and information
+          The Drupal plugin, "Two-factor Authentication (TFA)" supports the integrity of software and information
           by reducing the risk of attackers gaining access to the system via theft of username and passwords
           and preventing ordinary users escalating privileges.
