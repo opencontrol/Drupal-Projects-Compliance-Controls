@@ -12,7 +12,7 @@ The Paranoia plugin supports least privilege by blocking any location within the
 
 ## AC-12 SESSION TERMINATION 
 
-The Automated Logout plutin provides Drupal site administrators the ability to log users out after a specified time of inactivity. 
+The Automated Logout plugin provides Drupal site administrators the ability to log users out after a specified time of inactivity. 
 
 The Session Limit plugin enables Drupal administrators to set limits on the number of simultaneous sessions for each user. 
 
