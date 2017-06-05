@@ -16,9 +16,9 @@ The Drupal project, "Two-factor Authentication (TFA)" improves account managemen
 
 ### AC-12 - SESSION TERMINATION
 
-The Drupal project "Session Limit" enables Drupal administrators to set limits on the number of simultaneous sessions for each user. 
-
 The Drupal project "Automated Logout" provides Drupal site administrators the ability to log users out after a specified time of inactivity. 
+
+The Drupal project "Session Limit" enables Drupal administrators to set limits on the number of simultaneous sessions for each user. 
 
 ### SC-5 - DENIAL OF SERVICE PROTECTION
 
