@@ -1,8 +1,8 @@
 documentation_complete: false
 schema_version: 3.0.0
-name: GovReady Dashboard Plugin
+name: GovReady Dashboard Project
 references:
-  - name: GovReady Dashboard Plugin Documentation
+  - name: GovReady Dashboard Project Documentation
     path: https://www.drupal.org/project/govready
     type: URL
 satisfies:
@@ -14,5 +14,5 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Drupal plugin "GovReady Dashboard" provides a dashboard and tools to enhance security for government
+          The Drupal project "GovReady Dashboard" provides a dashboard and tools to enhance security for government
           websites and achieve FISMA compliance.

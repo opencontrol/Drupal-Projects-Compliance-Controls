@@ -1,8 +1,8 @@
 schema_version: "1.0.0"
-name: Drupal Compliance Plugins
+name: Drupal Compliance Projects
 metadata:
   description: |
-    Drupal Compliance Plugins are various Drupal plugins commonly used to harden
+    Drupal Compliance Projects are various Drupal projects commonly used to harden
     a Drupal instance to meet various NIST SP 800-53 described security controls.
 
   maintainers:

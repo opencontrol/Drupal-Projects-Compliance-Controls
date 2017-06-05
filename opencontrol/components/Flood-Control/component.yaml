@@ -2,7 +2,7 @@ documentation_complete: false
 schema_version: 3.0.0
 name: Flood Control
 references:
-  - name: Flood Control Plugin Documentation
+  - name: Flood Control Project Documentation
     path: https://www.drupal.org/project/flood_control
     type: URL
 satisfies:
@@ -14,5 +14,5 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Drupal plugin "Flood Control" provides Drupal administrators with an interface
+          The Drupal project "Flood Control" provides Drupal administrators with an interface
           to configure flood controls variable sin Drupal 7, such as the limiter for login attempts.

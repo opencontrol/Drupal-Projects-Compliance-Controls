@@ -1,4 +1,4 @@
-# Various NIST 800-53 Controls Provided by Drupal Plugins
+# Various NIST 800-53 Controls Provided by Drupal Projects
 
 ## Controls
 {% for control in controls.keys() %}

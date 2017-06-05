@@ -1,14 +1,14 @@
-# Drupal Plugins Compliance Controls
+# Drupal Projects Compliance Controls
 
-This repository contains compliance information for various Drupal plugins commonly used to harden a Drupal instance to meet various NIST SP 800-53 described security controls.
+This repository contains compliance information for various Drupal projects commonly used to harden a Drupal instance to meet various NIST SP 800-53 described security controls.
 
 This data adheres to the OpenControl schema for building compliance documentation and can be used to support your own authority to operate (ATO) review process. The documentation generated from this content can be used to assist your organization in authorizing Drupal. For more information, visit [http://open-control.org](http://open-control.org).
 
 > This content is provided for informational purposes only and has not been vetted by any third-party security assessors. You are solely responsible for developing, implementing, and managing your applications and/or subscriptions running on your own platform in compliance with applicable laws, regulations, and contractual obligations. The documentation is provided "as-is" and without any warranty of any kind, whether express, implied or statutory, and Docker, Inc. expressly disclaims all warranties for non-infringement, merchantability or fitness for a particular purpose.
 
-## Summary of plugins and related controls
+## Summary of projects and related controls
 
-| Plugin                  | 800-53 Control                          |
+| Drupal Project          | 800-53 Control                          |
 |-------------------------|-----------------------------------------|
 |Automated Logout         | AC-12 Session Termination               |
 |Flood-control            | SC-5 Denial Of Service Protection       |
@@ -26,7 +26,7 @@ This data adheres to the OpenControl schema for building compliance documentatio
 The `docs/` directory contains generated documents from which you can copy text.
 
 
-* [BASIC.md](docs/BASIC.md) - A basic listing of controls supported by Drupal plugins tracked in this repository
+* [BASIC.md](docs/BASIC.md) - A basic listing of controls supported by Drupal projects tracked in this repository
 
 ### Scripts to generate documents
 

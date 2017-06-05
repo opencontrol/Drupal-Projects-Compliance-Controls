@@ -1,32 +1,32 @@
-# Various NIST 800-53 Controls Provided by Drupal Plugins
+# Various NIST 800-53 Controls Provided by Drupal Projects
 
 ## Controls
 
 ### SI-7 - SOFTWARE, FIRMWARE, AND INFORMATION INTEGRITY
 
-The Drupal plugin, "Two-factor Authentication (TFA)" supports the integrity of software and information by reducing the risk of attackers gaining access to the system via theft of username and passwords and preventing ordinary users escalating privileges.
+The Drupal project, "Two-factor Authentication (TFA)" supports the integrity of software and information by reducing the risk of attackers gaining access to the system via theft of username and passwords and preventing ordinary users escalating privileges.
 
 ### AC-6 (1) - AUTHORIZE ACCESS TO SECURITY FUNCTIONS
 
-The Drupal plugin "Paranoia" supports least privilege by blocking any location within the Drupal interface the plugin finds where a user can evaluate (e.g., run) PHP code. This limits the ability of an individual gaining elevated permission. 
+The Drupal project "Paranoia" supports least privilege by blocking any location within the Drupal interface the project finds where a user can evaluate (e.g., run) PHP code. This limits the ability of an individual gaining elevated permission. 
 
 ### AC-2 - ACCOUNT MANAGEMENT
 
-The Drupal plugin, "Two-factor Authentication (TFA)" improves account management by upgrading Drupal's standard username and password login to two-factor authentication via a various two-factor authentication. 
+The Drupal project, "Two-factor Authentication (TFA)" improves account management by upgrading Drupal's standard username and password login to two-factor authentication via a various two-factor authentication. 
 
 ### AC-12 - SESSION TERMINATION
 
-The Drupal plugin "Session Limit" enables Drupal administrators to set limits on the number of simultaneous sessions for each user. 
+The Drupal project "Session Limit" enables Drupal administrators to set limits on the number of simultaneous sessions for each user. 
 
-The Drupal plugin "Automated Logout" provides Drupal site administrators the ability to log users out after a specified time of inactivity. 
+The Drupal project "Automated Logout" provides Drupal site administrators the ability to log users out after a specified time of inactivity. 
 
 ### SC-5 - DENIAL OF SERVICE PROTECTION
 
-The Drupal plugin "Flood Control" provides Drupal administrators with an interface to configure flood controls variable sin Drupal 7, such as the limiter for login attempts. 
+The Drupal project "Flood Control" provides Drupal administrators with an interface to configure flood controls variable sin Drupal 7, such as the limiter for login attempts. 
 
 ### AC-6 - LEAST PRIVILEGE
 
-The Drupal plugin, "Two-factor Authentication (TFA)" supports least privilege by upgrading Drupal's standard username and password login to two-factor authentication via a various two-factor authentication. 
+The Drupal project, "Two-factor Authentication (TFA)" supports least privilege by upgrading Drupal's standard username and password login to two-factor authentication via a various two-factor authentication. 
 
 
 ## Updating this document

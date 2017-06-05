@@ -1,8 +1,8 @@
 documentation_complete: false
 schema_version: 3.0.0
-name: Paranoia Plugin
+name: Paranoia Project
 references:
-  - name: Paranoia Plugin Documentation
+  - name: Paranoia Project Documentation
     path: https://www.drupal.org/project/paranoia
     type: URL
 satisfies:
@@ -14,6 +14,6 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Drupal plugin "Paranoia" supports least privilege by blocking any location within the Drupal
-          interface the plugin finds where a user can evaluate (e.g., run) PHP code. This limits
+          The Drupal project "Paranoia" supports least privilege by blocking any location within the Drupal
+          interface the project finds where a user can evaluate (e.g., run) PHP code. This limits
           the ability of an individual gaining elevated permission.

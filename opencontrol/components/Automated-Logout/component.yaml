@@ -1,8 +1,8 @@
 documentation_complete: false
 schema_version: 3.0.0
-name: Automated Logout Plugin
+name: Automated Logout Project
 references:
-  - name: Automated Logout Plugin Documentation
+  - name: Automated Logout Project Documentation
     path: https://www.drupal.org/project/autologout
     type: URL
 satisfies:
@@ -14,4 +14,4 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The Drupal plugin "Automated Logout" provides Drupal site administrators the ability to log users out after a specified time of inactivity.
+          The Drupal project "Automated Logout" provides Drupal site administrators the ability to log users out after a specified time of inactivity.

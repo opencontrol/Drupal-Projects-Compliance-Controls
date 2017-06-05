@@ -9,8 +9,8 @@ python ./scripts/doc_basic.py
 """
 
 __author__ = "Greg Elin (gregelin@govready.com)"
-__version__ = "$Revision: 0.2.0 $"
-__date__ = "$Date: 2017/06/03 21:35:00 $"
+__version__ = "$Revision: 0.2.1 $"
+__date__ = "$Date: 2017/06/05 15:35:00 $"
 __copyright__ = "Copyright (c) 2017 GovReady PBC"
 __license__ = "Apache Software License 2.0"
 

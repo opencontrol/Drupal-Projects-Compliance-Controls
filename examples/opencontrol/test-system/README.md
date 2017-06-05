@@ -1,6 +1,6 @@
-# Drupal Plugins Compliance Controls Documentation Sample
+# Drupal Projects Compliance Controls Documentation Sample
 
-Included is a sample `opencontrol.yaml` file that imports the Drupal Plugins Compliance components and generates compliance documentation for a demonstration ATO.
+Included is a sample `opencontrol.yaml` file that imports The Drupal projects Compliance components and generates compliance documentation for a demonstration ATO.
 
 The steps below can be used to import the OpenControl dependencies and serve a GitBook. Ensure that Compliance-Masonry is installed on your local workstation.
 
