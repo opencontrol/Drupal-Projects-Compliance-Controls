@@ -14,5 +14,5 @@ dependencies:
     - url: https://github.com/opencontrol/FedRAMP-Certifications
       revision: master
   systems:
-    - url: https://github.com/opencontrol/Drupal-Plugins-Compliance-Controls
+    - url: https://github.com/opencontrol/Drupal-Projects-Compliance-Controls
       revision: master

@@ -39,7 +39,7 @@ You can include this repository as a dependency by adding the appropriate lines 
 ```
 dependencies:
   systems:
-    - url: https://github.com/opencontrol/Drupal-Plugins-Compliance-Controls
+    - url: https://github.com/opencontrol/Drupal-Projects-Compliance-Controls
       revision: master
 ```
 

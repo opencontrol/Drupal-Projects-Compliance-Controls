@@ -22,7 +22,7 @@ import jinja2
 # Settings
 dir_path         = os.path.dirname(os.path.realpath(__file__))
 print('dir_path', dir_path)
-opencontrol_repo = 'https://github.com/opencontrol/Drupal-Plugins-Compliance-Controls'
+opencontrol_repo = 'https://github.com/opencontrol/Drupal-Projects-Compliance-Controls'
 opencontrol_file = '../opencontrol.yaml'
 output_file      = dir_path+'/../docs/BASIC.md'
 print('output_file', output_file)
