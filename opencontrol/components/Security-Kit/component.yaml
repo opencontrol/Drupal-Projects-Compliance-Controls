@@ -1,0 +1,48 @@
+documentation_complete: false
+schema_version: 3.0.0
+name: 
+references:
+  - name: Security Kit
+    path: https://www.drupal.org/project/seckit
+    type: URL
+satisfies:
+
+  - control_key: SC-4
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          The Drupal project "Security Kit" helps control information in shared resources at the application layer by preventing unauthorized and unintended information transfers that can occur from cross-site request forgeries and scripting, click-jacking, and other incorrect HTTP headers.  For a complete list of features see [Project Security Kit documentation](https://www.drupal.org/project/seckit).
+
+  - control_key: SC-8
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          The Drupal project "Security Kit" controls transmission confidentiality and integrity at the application layer by preventing cross-site request forgeries and scripting, click-jacking, incorrect HTTP headers. Security Kit implements HTTP Strict Transport Security (HSTS) response header that prevent man-in-the-middle attacks. For a complete list of features see [Project Security Kit documentation](https://www.drupal.org/project/seckit).
+
+  - control_key: SC-11
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          The Drupal project "Security Kit" improves trusted path in sessions with end-users at the application layer by implementing HTTP Strict Transport Security (HSTS) response header that prevent man-in-the-middle attacks. For a complete list of features see [Project Security Kit documentation](https://www.drupal.org/project/seckit).
+
+  - control_key: SC-23
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          The Drupal project "Security Kit" contributes significantly to session authenticity at the application layer at the application layer by preventing cross-site request forgeries and scripting, click-jacking, incorrect HTTP headers. Security Kit implements HTTP Strict Transport Security (HSTS) response header that prevent man-in-the-middle attacks.  For a complete list of features see [Project Security Kit documentation](https://www.drupal.org/project/seckit).

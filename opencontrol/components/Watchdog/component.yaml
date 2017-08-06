@@ -2,8 +2,11 @@ documentation_complete: false
 schema_version: 3.0.0
 name: Drupal Watchdog
 references:
-  - name: Drupal Watchdog
-    path: https://www.drupalwatchdog.com
+  - name: Drupal Watchdog (now dblog)
+    path: https://www.drupal.org/documentation/modules/watchdog
+    type: URL
+  - name: Database Logging Module (dblog)
+    path: https://www.drupal.org/docs/8/core/modules/dblog/overview
     type: URL
 satisfies:
   - control_key: AU-2

@@ -1,0 +1,47 @@
+documentation_complete: false
+schema_version: 3.0.0
+name: 
+references:
+  - name: Security Review
+    path: https://www.drupal.org/project/security_review
+    type: URL
+satisfies:
+  - control_key: AC-4
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          The Drupal project "Security Review" contributes to information flow enforcement at the application layer by checking access control to information views to protect against information disclosure. For a complete list of features see [Project Security Review documentation](https://www.drupal.org/project/security_review).
+  - control_key: AC-6
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          The Drupal project "Security Review" helps ensure least privilege at the application layer  is followed by checking proper Drupal admininstration permissions; checking file system permissions to protect against executing arbitrary files; prevention of dangerous HTML tags to prevent cross-site scripting; and limit file upload extentions. For a complete list of features see [Project Security Review documentation](https://www.drupal.org/project/security_review).
+
+  - control_key: CM-6
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: d
+        text: |
+          The Drupal project "Security Review" contributes to minitoring and controlling changes to configuration settings at the application layer by checking Drupal configuration settings for errors that can make the site less secure or disclosure information. For a complete list of features see [Project Security Review documentation](https://www.drupal.org/project/security_review).
+
+  - control_key: CM-7
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          The Drupal project "Security Review" contributes to configuration for least functionality at the application layer by checking Drupal configuration settings for arbitrary PHP execution, private files are properly secure, safe error reporting is set, and Drupal administration permissions are not misconfigured. For a complete list of features see [Project Security Review documentation](https://www.drupal.org/project/security_review).

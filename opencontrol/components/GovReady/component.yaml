@@ -6,13 +6,34 @@ references:
     path: https://www.drupal.org/project/govready
     type: URL
 satisfies:
-  - control_key: XX-00
+  - control_key: MA-1
     standard_key: NIST-800-53
     covered_by: []
     implementation_status: complete
     control_origins:
       - service provider system specific
     narrative:
-      - text: |
-          The Drupal project "GovReady Dashboard" provides a dashboard and tools to enhance security for government
-          websites and achieve FISMA compliance.
+      - key: a
+        text: |
+          The Drupal project "GovReady Dashboard" provides a Drupal Administration dashboard that aggregates, documents and dissiminates to administrators essential information regarding maintenance of Drupal application, security updates, and plugin updates.
+
+      - key: a-2
+        text: |
+          The Drupal project "GovReady Dashboard" provides a Drupal Administration dashboard that describes procedures to track the routine maintenance of the Drupal application and documents routine maintenance.
+
+  - control_key: MA-2
+    standard_key: NIST-800-53
+    covered_by: []
+    implementation_status: complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: |
+          The Drupal project "GovReady Dashboard" provides a Drupal Administration dashboard that allows maintenance activities to be scheduled, documented as maintenance records, and reviewed by system administrators.
+      - key: b
+        text: |
+          The Drupal project "GovReady Dashboard" provides a Drupal Administration dashboard that makes it easy for administrators to monitor many maintenance activities associated with the Drupal application.
+      - key: f
+        text: |
+          The Drupal project "GovReady Dashboard" provides a Drupal Administration dashboard that maintenance records that can be customized to include organization-defined information.

@@ -3,7 +3,7 @@ schema_version: 3.0.0
 name: Session Limit Project
 references:
   - name: Session Limit Project Documentation
-    path: https://www.drupal.org/project/autologout
+    path: https://www.drupal.org/project/session_limit
     type: URL
 satisfies:
   - control_key: AC-12
