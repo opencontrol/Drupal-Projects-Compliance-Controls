@@ -11,7 +11,7 @@ This data adheres to the OpenControl schema for building compliance documentatio
 | Drupal Project          | 800-53 Control                           |
 |-------------------------|------------------------------------------|
 | [Automated Logout](https://www.drupal.org/project/autologout)      | [AC-12](https://nvd.nist.gov/800-53/Rev4/control/AC-12) Session Termination              |
-| [Ejector Seat](https://www.drupal.org/project/ejectorseat)         | [AC-12](https://nvd.nist.gov/800-53/Rev4/control/AC-12) Session Termination?             |
+| [Ejector Seat](https://www.drupal.org/project/ejectorseat)         | [AC-12](https://nvd.nist.gov/800-53/Rev4/control/AC-12) Session Termination              |
 | [Flood-control](https://www.drupal.org/project/flood_control)      | [SC-5](https://nvd.nist.gov/800-53/Rev4/control/SC-5) Denial Of Service Protection       |
 | [GovReady](https://www.drupal.org/project/govready)                | [AC-2 (f)](https://nvd.nist.gov/800-53/Rev4/control/AC-2) Account Management; [MA-1](https://nvd.nist.gov/800-53/Rev4/control/MA-1) System Maintenance Policy and Procedures; [MA-2](https://nvd.nist.gov/800-53/Rev4/control/MA-2) Controlled Maintenance; [MA-6](https://nvd.nist.gov/800-53/Rev4/control/MA-6) Timely Maintenance |
 | [Password Policy](https://www.drupal.org/project/password_policy)  | [AC-3](https://nvd.nist.gov/800-53/Rev4/control/AC-3) Access Enforcement |
