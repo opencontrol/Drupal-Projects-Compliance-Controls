@@ -28,7 +28,7 @@ output_file      = dir_path+'/../docs/BASIC.md'
 print('output_file', output_file)
 # controllist      = ["AC-2","AC-6","AC-6 (1)", "AC-12", "SC-5", "SI-7"]
 # controllist      = ["AC-2","AC-6","AC-6 (1)", "AC-12", "AU-2", "AU-3", "AU-7", "AU-8", "AU-9", "AU-14", "SC-5", "SI-7"]
-controllist      = ["AC-2", "AC-3", "AC-4", "AC-6", "AC-6 (1)", "AC-12", "AC-22", "AU-2", "AU-3", "AU-7", "AU-8", "AU-9", "AU-14", "CM-6", "CM-7", "MA-1", "MA-2", "MA-6", "SC-4", "SC-5", "SC-8", "SC-11", "SC-23"]
+controllist      = ["AC-2", "AC-3", "AC-4", "AC-6", "AC-6 (1)", "AC-12", "AU-2", "AU-3", "AU-7", "AU-8", "AU-9", "AU-14", "CM-6", "CM-7", "MA-1", "MA-2", "SC-4", "SC-5", "SC-8", "SC-11", "SC-23"]
 
 # Load jina environment to get templates
 templateLoader = jinja2.FileSystemLoader( searchpath=dir_path )
