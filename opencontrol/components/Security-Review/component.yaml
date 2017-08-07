@@ -1,6 +1,6 @@
 documentation_complete: false
 schema_version: 3.0.0
-name: 
+name: Security Review
 references:
   - name: Security Review
     path: https://www.drupal.org/project/security_review
