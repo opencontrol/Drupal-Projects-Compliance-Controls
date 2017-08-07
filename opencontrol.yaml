@@ -18,4 +18,4 @@ components:
   - ./opencontrol/components/Security-Review
   - ./opencontrol/components/Session-Limit
   - ./opencontrol/components/TFA
- - ./opencontrol/components/Watchdog
+  - ./opencontrol/components/Watchdog
