@@ -9,9 +9,13 @@ metadata:
     - gregelin@govready.com
 components:
   - ./opencontrol/components/Automated-Logout
+  - ./opencontrol/components/Ejector-Seat
   - ./opencontrol/components/Flood-Control
+  - ./opencontrol/components/GovReady
   - ./opencontrol/components/Paranoia
+  - ./opencontrol/components/Password-Policy
+  - ./opencontrol/components/Security-Kit
+  - ./opencontrol/components/Security-Review
   - ./opencontrol/components/Session-Limit
   - ./opencontrol/components/TFA
-#  - ./opencontrol/components/Watchdog
-#  - ./opencontrol/components/GovReady
+ - ./opencontrol/components/Watchdog
